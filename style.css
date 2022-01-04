@@ -1,0 +1,49 @@
+#pembukaan h1 {
+  text-transform: capitalize;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#pembukaan p {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 1px;
+}
+
+#pembukaan span {
+  font-weight: bold;
+}
+
+#pembukaan h2 {
+  margin-top: 50px;
+}
+
+#pembukaan img {
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.img-hover-zoom--blur img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1);
+}
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1.1);
+}
+
+/* =================== */
+
+#olahraga h1 {
+  text-transform: capitalize;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#olahraga p {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 1px;
+}
