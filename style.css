@@ -36,6 +36,8 @@
 
 /* =================== */
 
+/* BAGIAN OLAHRAGA */
+
 #olahraga h1 {
   text-transform: capitalize;
   margin-top: 50px;
@@ -43,6 +45,40 @@
 }
 
 #olahraga p {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-left: 1px;
+}
+
+#olahraga span {
+  font-weight: bold;
+}
+
+#olahraga img {
+  height: 250px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.img-hover-zoom--blur img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1);
+}
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1.1);
+}
+
+/* AKHIR BAGIAN OLAHRAGA */
+
+#kesehatan h1 {
+  text-transform: capitalize;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#kesehatan p {
   font-size: 15px;
   text-transform: capitalize;
   margin-left: 1px;
